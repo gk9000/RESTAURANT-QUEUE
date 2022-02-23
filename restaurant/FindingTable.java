@@ -32,7 +32,7 @@ class FindingTable {
                         Table.sortTables();
                         findTable(Group.groups,Table.tables);
                     }//close if
-                }//close for
+                }//close  for
             }//close if
         }//close for
     }//close findTable
