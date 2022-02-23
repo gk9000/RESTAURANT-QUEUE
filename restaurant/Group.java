@@ -41,7 +41,7 @@ public class Group implements Runnable {
     public Group() {
     }//close constructor
 
-    // "i" is used in manageGroups method to keep track of how many customers' groups are produced. I have limited
+    // "i" is used in manageGroups method to keep track of iteraions. I have limited
     // the number to 1000 as above it stack overflow happens on my computer. This method (rememberI)  is needed
     // to prevent "i" from being reset when manageGroups method is called from within itself
     static int rememberI() {
