@@ -128,7 +128,7 @@ public class Group implements Runnable {
             }//close if
         } //close for
 
-    } //close manageGroups
+    } //close  manageGroups
 
 
     public static void main(String[] args) {
