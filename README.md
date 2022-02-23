@@ -24,6 +24,6 @@ The program is a solution to the following challenge:
         
 The program creates 10 tables of different capacity (this is done in class "Table") and then starts randomly creating groups of customers of different sizes (there is a 2 sec lag  before creating the next group). Once a group is created, "FindingTable" class tries to seat it at a table, following challenge's rules. If it is impossible, the group stays in line, waiting for a proper table to get free. A group that is still waiting in line may (randomly) decide to give up and leave. Seated groups (again randomly) finish eating and leave, thus freeing space for other groups. All this is managed by "Group" class, which is also the entry point into the program.
 
-In the beginning I planned to use several threads to make all events completely independent of each other time-wise, but saw that at the moment multy-threading is a little bit too much for me. So the program follows one line with time lag between creating groups. However, all events are randomized, so one one iteration different events might - or might not - happen.
+In the beginning I planned to use several threads to make all events completely independent of each other time-wise, but saw that at the moment multy-threading is a little bit too much for me. So the program follows one line with time lag between creating groups. However, all events are randomized, so at each iteration different events might - or might not - happen.
 
 
