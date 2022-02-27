@@ -96,7 +96,7 @@ public class Group implements Runnable {
         }//close if
 
 
-        // After the first 10 groups are created and seated, some already seated groups randomly finish eating,
+        // After the first 10 groups are created and seated, some already seated groups randomly finish  eating,
         // get up and leave. After each such event, tables are re-sorted and FindingTable class attempts to
         // seat groups waiting in line (if any)
         int a = random.nextInt(Table.tables.size());
