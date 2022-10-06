@@ -1,5 +1,4 @@
-# restaurant queue
- This is a self-running simulator that imitates a restaurant queue and tables' arrangement. Self-running means that once started it runs till 1000 iterations are reached or till stack overflow happens (if you don't stop it before, of course). You don't need to provide it any data. In my opinion, about 100 iterations is enougth to see how it works.
+This is a self-running simulator that imitates a restaurant queue and tables' arrangement. Self-running means that once started it runs till 1000 iterations are reached or till stack overflow happens (if you don't stop it before, of course). You don't need to provide it any data. In my opinion, about 100 iterations is enough to see how it works.
 The program is a solution to the following challenge:
 
        "Your restaurant has a set of tables of different sizes: each table can accommodate 2, 3, 4, 5 or 6 persons.
